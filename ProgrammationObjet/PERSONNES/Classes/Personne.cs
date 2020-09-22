@@ -28,6 +28,14 @@ namespace PERSONNES.Classes
             Console.WriteLine("");
         }
 
+        public void Afficher(Personne personne)
+        {
+            Console.WriteLine($"Nom: {personne.Nom}");
+            Console.WriteLine($"Prénom: {personne.Prenom}");
+            Console.WriteLine($"Age: {personne.Age}");
+            Console.WriteLine("");
+        }
+
         public void Combien()
         {
             Console.WriteLine($"Nb personne créer : {nb}");
