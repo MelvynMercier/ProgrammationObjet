@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SocieteAvecTableau.Classes;
+using System;
+using System.Collections.Generic;
 
 namespace SocieteAvecTableau
 {
@@ -6,7 +8,7 @@ namespace SocieteAvecTableau
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
         }
     }
 }

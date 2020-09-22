@@ -12,7 +12,7 @@ namespace SocieteAvecTableau.Classes
         {
         }
 
-        public Employe(int salaire) : base("Toto", "Duprés", 30)
+        public Employe(int salaire, string nom, string prenom, int age) : base(nom, prenom, age)
         {
             this.Salaire = salaire;
         }

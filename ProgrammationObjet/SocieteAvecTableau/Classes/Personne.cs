@@ -23,5 +23,21 @@ namespace SocieteAvecTableau.Classes
         {
             return this.Nom + " " + this.Prenom + " " + this.Age;
         }
+
+        public void Afficher(Personne personne1)
+        {
+            Console.WriteLine($"Nom: {personne1.Nom}");
+            Console.WriteLine($"Prénom: {personne1.Prenom}");
+            Console.WriteLine($"Age: {personne1.Age}");
+            Console.WriteLine("");
+        }
+
+        public void Afficher()
+        {
+            Console.WriteLine($"Nom: {this.Nom}");
+            Console.WriteLine($"Prénom: {this.Prenom}");
+            Console.WriteLine($"Age: {this.Age}");
+            Console.WriteLine("");
+        }
     }
 }

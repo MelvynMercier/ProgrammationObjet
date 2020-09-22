@@ -6,5 +6,8 @@ namespace SocieteAvecTableau.Classes
 {
     public class SocieteTableau
     {
+       
+
+
     }
 }
