@@ -80,24 +80,24 @@ namespace SocieteAvecListe.Classes
 
         public Element RecupereDernierElement()
         {
-            Element surf = this._Debut;
-            while (surf.Suivant != null)
+            Element element = this._Debut;
+            while (element.Suivant != null)
             {
-                surf = surf.Suivant;
+                element = element.Suivant;
             }
-            return surf;
+            return element;
         }
 
         public void Lister()
         {
-            Element surf = this._Debut;
-            if (surf != null)
+            Element element = this._Debut;
+            if (element != null)
             {
-                string cumul = surf.Objet.ToString();
-                while (surf.Suivant != null)
+                string cumul = element.Objet.ToString();
+                while (element.Suivant != null)
                 {
-                    surf = surf.Suivant;
-                    cumul += "," + surf.Objet.ToString();
+                    element = element.Suivant;
+                    cumul += "," + element.Objet.ToString();
                 }
                 Console.WriteLine(cumul);
             }
